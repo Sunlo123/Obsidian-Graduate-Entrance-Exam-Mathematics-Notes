@@ -1,0 +1,1101 @@
+{
+  "nodes": [
+    {
+      "id": "cd644dc9298ad930",
+      "type": "group",
+      "x": 0,
+      "y": 80,
+      "width": 1500,
+      "height": 1820,
+      "label": "向量组的线性关系",
+      "color": "5"
+    },
+    {
+      "id": "2c0a6f0153e08291",
+      "type": "group",
+      "x": 1680,
+      "y": 80,
+      "width": 1500,
+      "height": 1820,
+      "label": "矩阵的秩与线性表示",
+      "color": "6"
+    },
+    {
+      "id": "c210d67c14c2e723",
+      "type": "group",
+      "x": 3360,
+      "y": 80,
+      "width": 1500,
+      "height": 1820,
+      "label": "线性方程组的解",
+      "color": "4"
+    },
+    {
+      "id": "2c19420546fb99b3",
+      "type": "group",
+      "x": 0,
+      "y": 2100,
+      "width": 1500,
+      "height": 1380,
+      "label": "向量组等价、矩阵等价与初等变换",
+      "color": "3"
+    },
+    {
+      "id": "f6044a81fe3dd5a9",
+      "type": "group",
+      "x": 1680,
+      "y": 2100,
+      "width": 1500,
+      "height": 900,
+      "label": "方阵、行列式与可逆",
+      "color": "2"
+    },
+    {
+      "id": "03cca0ad1dbc3308",
+      "type": "group",
+      "x": 3360,
+      "y": 2100,
+      "width": 1500,
+      "height": 1580,
+      "label": "特征值、相似与二次型",
+      "color": "1"
+    },
+    {
+      "id": "d77851a6184f3ec3",
+      "type": "text",
+      "x": 80,
+      "y": 210,
+      "width": 565,
+      "height": 120,
+      "text": "**列向量组线性无关**",
+      "color": "5"
+    },
+    {
+      "id": "6ef44bd0697acba7",
+      "type": "text",
+      "x": 860,
+      "y": 210,
+      "width": 565,
+      "height": 120,
+      "text": "**列向量组线性相关**",
+      "color": "5"
+    },
+    {
+      "id": "b282d6ca85f91e3f",
+      "type": "text",
+      "x": 80,
+      "y": 430,
+      "width": 565,
+      "height": 120,
+      "text": "任一向量都不能由其余向量线性表示"
+    },
+    {
+      "id": "5a7711e85f731797",
+      "type": "text",
+      "x": 860,
+      "y": 430,
+      "width": 565,
+      "height": 120,
+      "text": "至少一个向量可由其余向量线性表示"
+    },
+    {
+      "id": "a63a051de5e8fc23",
+      "type": "text",
+      "x": 80,
+      "y": 650,
+      "width": 565,
+      "height": 120,
+      "text": "任一部分向量组仍线性无关"
+    },
+    {
+      "id": "18fe51890c70148a",
+      "type": "text",
+      "x": 860,
+      "y": 650,
+      "width": 565,
+      "height": 120,
+      "text": "含零向量或存在成比例的两个向量 ⇒ 线性相关"
+    },
+    {
+      "id": "3f3fc80af1c0cb21",
+      "type": "text",
+      "x": 80,
+      "y": 870,
+      "width": 565,
+      "height": 120,
+      "text": "给每个向量同位添加分量后，仍线性无关"
+    },
+    {
+      "id": "7c034b0b932e31b1",
+      "type": "text",
+      "x": 860,
+      "y": 870,
+      "width": 565,
+      "height": 120,
+      "text": "增加向量后，仍线性相关"
+    },
+    {
+      "id": "f76c89722dab7840",
+      "type": "text",
+      "x": 80,
+      "y": 1090,
+      "width": 565,
+      "height": 120,
+      "text": "线性相关性的常用判别（七大定理）"
+    },
+    {
+      "id": "771df7441c5343b4",
+      "type": "text",
+      "x": 860,
+      "y": 1090,
+      "width": 565,
+      "height": 120,
+      "text": "各向量同位删去分量后，仍线性相关"
+    },
+    {
+      "id": "c86f6334361f98d8",
+      "type": "text",
+      "x": 860,
+      "y": 1310,
+      "width": 565,
+      "height": 120,
+      "text": "胖矩阵：$m<n$（列数多于行数） ⇒ 列向量组相关"
+    },
+    {
+      "id": "89e69192a45a5da6",
+      "type": "text",
+      "x": 1760,
+      "y": 210,
+      "width": 565,
+      "height": 120,
+      "text": "$r(A)$ = 列向量组中极大无关组的向量数",
+      "color": "6"
+    },
+    {
+      "id": "eac1b8e1160abef1",
+      "type": "text",
+      "x": 2540,
+      "y": 210,
+      "width": 565,
+      "height": 120,
+      "text": "极大无关组：从原组中选出，线性无关且能表示原组",
+      "color": "6"
+    },
+    {
+      "id": "97240d3f59f6bc8f",
+      "type": "text",
+      "x": 1760,
+      "y": 430,
+      "width": 565,
+      "height": 120,
+      "text": "**列满秩：$r(A)=n$**",
+      "color": "6"
+    },
+    {
+      "id": "ddcb45048ba48665",
+      "type": "text",
+      "x": 2540,
+      "y": 430,
+      "width": 565,
+      "height": 120,
+      "text": "**列不满秩：$r(A)<n$**",
+      "color": "6"
+    },
+    {
+      "id": "821b8a92e510f2d7",
+      "type": "text",
+      "x": 1760,
+      "y": 650,
+      "width": 565,
+      "height": 120,
+      "text": "$S_1$ 可由 $S_2$ 线性表示"
+    },
+    {
+      "id": "d6de0304c7a0880f",
+      "type": "text",
+      "x": 2540,
+      "y": 650,
+      "width": 565,
+      "height": 120,
+      "text": "被表示的向量组秩不大：$r(S_1)\\le r(S_2)$"
+    },
+    {
+      "id": "b6ba3e945d98c1da",
+      "type": "text",
+      "x": 1760,
+      "y": 870,
+      "width": 565,
+      "height": 120,
+      "text": "乘积的秩：$r(AB)\\le\\min\\{r(A),r(B)\\}$"
+    },
+    {
+      "id": "20e441d438842246",
+      "type": "text",
+      "x": 3440,
+      "y": 210,
+      "width": 565,
+      "height": 120,
+      "text": "$Ax=0$ 仅有零解 ⇔ $r(A)=n$",
+      "color": "4"
+    },
+    {
+      "id": "4e4ad2cee02668dd",
+      "type": "text",
+      "x": 4220,
+      "y": 210,
+      "width": 565,
+      "height": 120,
+      "text": "$Ax=0$ 有非零解 ⇔ $r(A)<n$；解空间维数为 $n-r(A)$",
+      "color": "4"
+    },
+    {
+      "id": "3bbd96e3e7e13fda",
+      "type": "text",
+      "x": 4220,
+      "y": 430,
+      "width": 565,
+      "height": 120,
+      "text": "基础解系：齐次方程组解空间的一组基"
+    },
+    {
+      "id": "601bbdf785b9395c",
+      "type": "text",
+      "x": 3440,
+      "y": 650,
+      "width": 565,
+      "height": 120,
+      "text": "**$Ax=\\beta$ 有解**",
+      "color": "4"
+    },
+    {
+      "id": "a32bd20710402451",
+      "type": "text",
+      "x": 4220,
+      "y": 650,
+      "width": 565,
+      "height": 120,
+      "text": "**$Ax=\\beta$ 无解**",
+      "color": "4"
+    },
+    {
+      "id": "638752ca1879cc13",
+      "type": "text",
+      "x": 3440,
+      "y": 870,
+      "width": 565,
+      "height": 120,
+      "text": "$r(A)=r([A,\\beta])$"
+    },
+    {
+      "id": "722eb99ebceaf370",
+      "type": "text",
+      "x": 4220,
+      "y": 870,
+      "width": 565,
+      "height": 120,
+      "text": "$r([A,\\beta])=r(A)+1$"
+    },
+    {
+      "id": "48b120b8eee1541b",
+      "type": "text",
+      "x": 3440,
+      "y": 1090,
+      "width": 565,
+      "height": 120,
+      "text": "$\\beta$ 可由 $A$ 的列向量组线性表示"
+    },
+    {
+      "id": "763dd2975bafd93f",
+      "type": "text",
+      "x": 3440,
+      "y": 1310,
+      "width": 565,
+      "height": 120,
+      "text": "有解且 $r(A)=n$ ⇒ 唯一解"
+    },
+    {
+      "id": "1ee74fa800aaf0bd",
+      "type": "text",
+      "x": 4220,
+      "y": 1310,
+      "width": 565,
+      "height": 120,
+      "text": "有解且 $r(A)<n$ ⇒ 无穷多解"
+    },
+    {
+      "id": "e6610baa42f074ab",
+      "type": "text",
+      "x": 3440,
+      "y": 1530,
+      "width": 565,
+      "height": 120,
+      "text": "同解的齐次方程组（$A,B$ 列数相同）"
+    },
+    {
+      "id": "9f59e52506b1468e",
+      "type": "text",
+      "x": 4220,
+      "y": 1530,
+      "width": 565,
+      "height": 160,
+      "text": "$Ax=0$ 与 $Bx=0$ 同解 ⇔ $r(A)=r(B)=r\\!\\left(\\begin{bmatrix}A\\\\B\\end{bmatrix}\\right)$"
+    },
+    {
+      "id": "14c06b3c389c55fa",
+      "type": "text",
+      "x": 80,
+      "y": 2230,
+      "width": 565,
+      "height": 120,
+      "text": "**等价向量组**",
+      "color": "3"
+    },
+    {
+      "id": "be3395b404de826a",
+      "type": "text",
+      "x": 860,
+      "y": 2230,
+      "width": 565,
+      "height": 120,
+      "text": "两个同维向量组可互相线性表示",
+      "color": "3"
+    },
+    {
+      "id": "0413a3720b7f2dae",
+      "type": "text",
+      "x": 80,
+      "y": 2450,
+      "width": 565,
+      "height": 120,
+      "text": "$r(S_1)=r(S_2)=r(S_1,S_2)$"
+    },
+    {
+      "id": "50fd62276978fabc",
+      "type": "text",
+      "x": 860,
+      "y": 2450,
+      "width": 565,
+      "height": 120,
+      "text": "**矩阵等价**"
+    },
+    {
+      "id": "c922a7e8499208aa",
+      "type": "text",
+      "x": 80,
+      "y": 2670,
+      "width": 565,
+      "height": 120,
+      "text": "两矩阵同型且 $r(A)=r(B)$"
+    },
+    {
+      "id": "87bdd9f43e268a81",
+      "type": "text",
+      "x": 860,
+      "y": 2670,
+      "width": 565,
+      "height": 120,
+      "text": "等价的同阶方阵，特征值未必相同"
+    },
+    {
+      "id": "5581cf486ccd6e02",
+      "type": "text",
+      "x": 80,
+      "y": 2890,
+      "width": 565,
+      "height": 120,
+      "text": "初等行变换"
+    },
+    {
+      "id": "4b3345ed2359ea9b",
+      "type": "text",
+      "x": 860,
+      "y": 2890,
+      "width": 565,
+      "height": 120,
+      "text": "变换前后行向量组等价"
+    },
+    {
+      "id": "bcf57d738a4c421f",
+      "type": "text",
+      "x": 80,
+      "y": 3110,
+      "width": 565,
+      "height": 120,
+      "text": "变换前后任一对应列子组的秩相同"
+    },
+    {
+      "id": "bbc66910a3fee6c4",
+      "type": "text",
+      "x": 860,
+      "y": 3110,
+      "width": 565,
+      "height": 120,
+      "text": "列向量之间的线性相关关系保持"
+    },
+    {
+      "id": "5c4ed28dc875c0e0",
+      "type": "text",
+      "x": 1760,
+      "y": 2230,
+      "width": 565,
+      "height": 120,
+      "text": "方阵且 $|A|\\ne0$",
+      "color": "2"
+    },
+    {
+      "id": "6a2d75a351840019",
+      "type": "text",
+      "x": 2540,
+      "y": 2230,
+      "width": 565,
+      "height": 120,
+      "text": "方阵且 $|A|=0$",
+      "color": "2"
+    },
+    {
+      "id": "a4c00ae50ffbdc3a",
+      "type": "text",
+      "x": 1760,
+      "y": 2450,
+      "width": 565,
+      "height": 120,
+      "text": "**$A$ 可逆**",
+      "color": "2"
+    },
+    {
+      "id": "be3c07fa0218f199",
+      "type": "text",
+      "x": 2540,
+      "y": 2450,
+      "width": 565,
+      "height": 120,
+      "text": "**$A$ 不可逆**",
+      "color": "2"
+    },
+    {
+      "id": "4dc59358fa7aba8b",
+      "type": "text",
+      "x": 1760,
+      "y": 2670,
+      "width": 565,
+      "height": 120,
+      "text": "$0$ 不是 $A$ 的特征值"
+    },
+    {
+      "id": "5348faf275101a5e",
+      "type": "text",
+      "x": 2540,
+      "y": 2670,
+      "width": 565,
+      "height": 120,
+      "text": "$0$ 是 $A$ 的特征值"
+    },
+    {
+      "id": "b8b1702e2861a6aa",
+      "type": "text",
+      "x": 3440,
+      "y": 2230,
+      "width": 565,
+      "height": 160,
+      "text": "同阶实方阵相似：$B=P^{-1}AP$（$P$ 可逆）\n相似 ⇒ 等价，反向未必",
+      "color": "1"
+    },
+    {
+      "id": "0db207386ade265b",
+      "type": "text",
+      "x": 4220,
+      "y": 2230,
+      "width": 565,
+      "height": 120,
+      "text": "相似保持特征多项式、迹、行列式和秩",
+      "color": "1"
+    },
+    {
+      "id": "c382bd1abd5ee07d",
+      "type": "text",
+      "x": 3440,
+      "y": 2450,
+      "width": 565,
+      "height": 120,
+      "text": "相似矩阵有相同特征值（计重数）"
+    },
+    {
+      "id": "9e1f782e4eaa9a69",
+      "type": "text",
+      "x": 4220,
+      "y": 2450,
+      "width": 565,
+      "height": 120,
+      "text": "$n$ 阶 $A$ 有 $n$ 个线性无关的实特征向量"
+    },
+    {
+      "id": "3df33de77adb6bcb",
+      "type": "text",
+      "x": 3440,
+      "y": 2670,
+      "width": 565,
+      "height": 120,
+      "text": "**$A$ 在实数域可相似对角化：$P^{-1}AP=\\Lambda$**",
+      "color": "1"
+    },
+    {
+      "id": "b222088ad3139e6b",
+      "type": "text",
+      "x": 4220,
+      "y": 2670,
+      "width": 565,
+      "height": 120,
+      "text": "$P$ 的列为特征向量，$\\Lambda$ 的对角元为对应特征值；$AP=P\\Lambda$"
+    },
+    {
+      "id": "36dc14b0fbcb938d",
+      "type": "text",
+      "x": 3440,
+      "y": 2890,
+      "width": 565,
+      "height": 120,
+      "text": "可对角化时：非零特征值数（计重数）=$r(A)$"
+    },
+    {
+      "id": "bceb8af243c273af",
+      "type": "text",
+      "x": 4220,
+      "y": 2890,
+      "width": 565,
+      "height": 160,
+      "text": "实对称 $A$：存在正交 $Q$（$Q^{\\mathrm T}Q=I$），使 $Q^{\\mathrm T}AQ=\\Lambda$"
+    },
+    {
+      "id": "4276217fed75a7f8",
+      "type": "text",
+      "x": 3440,
+      "y": 3110,
+      "width": 565,
+      "height": 120,
+      "text": "实对称 $A$ 经正交变换所得标准形的系数就是特征值"
+    },
+    {
+      "id": "f3693e98fa905203",
+      "type": "text",
+      "x": 4220,
+      "y": 3110,
+      "width": 565,
+      "height": 120,
+      "text": "实对称 $A$：正特征值数（计重数）= 正惯性指数"
+    },
+    {
+      "id": "7b995b58e508f7c7",
+      "type": "text",
+      "x": 3440,
+      "y": 3330,
+      "width": 565,
+      "height": 120,
+      "text": "实对称 $A$：负特征值数（计重数）= 负惯性指数"
+    },
+    {
+      "id": "3b7cf36c024dad99",
+      "type": "text",
+      "x": 1680,
+      "y": -1120,
+      "width": 1500,
+      "height": 230,
+      "text": "# 线性代数知识图谱\n设 $A\\in\\mathbb R^{m\\times n}$，$n$ 为列数。沿主线看判据，再看各模块的条件与推论。"
+    },
+    {
+      "id": "efa81717b0ba918f",
+      "type": "text",
+      "x": 490,
+      "y": -740,
+      "width": 520,
+      "height": 130,
+      "text": "向量组的线性关系\n线性相关 / 线性无关",
+      "color": "5"
+    },
+    {
+      "id": "76be78605e77f77f",
+      "type": "text",
+      "x": 2170,
+      "y": -740,
+      "width": 520,
+      "height": 130,
+      "text": "矩阵的秩与线性表示\n各类判据的枢纽",
+      "color": "6"
+    },
+    {
+      "id": "56d2981ff2e9b01e",
+      "type": "text",
+      "x": 3850,
+      "y": -740,
+      "width": 520,
+      "height": 130,
+      "text": "线性方程组的解\n齐次 / 非齐次",
+      "color": "4"
+    },
+    {
+      "id": "9267b34f136ae448",
+      "type": "text",
+      "x": 490,
+      "y": -430,
+      "width": 520,
+      "height": 130,
+      "text": "向量组等价、矩阵等价与初等变换",
+      "color": "3"
+    },
+    {
+      "id": "41c66dcd25397164",
+      "type": "text",
+      "x": 2170,
+      "y": -430,
+      "width": 520,
+      "height": 130,
+      "text": "方阵、行列式与可逆\n$0$ 是否为特征值",
+      "color": "2"
+    },
+    {
+      "id": "e8479949cb1f8fdf",
+      "type": "text",
+      "x": 3850,
+      "y": -430,
+      "width": 520,
+      "height": 130,
+      "text": "特征值、相似与二次型\n注意适用条件",
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "0f59e58132ce04ea",
+      "fromNode": "efa81717b0ba918f",
+      "fromSide": "right",
+      "toNode": "76be78605e77f77f",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "$r(A)=n$ ⇔ 列无关",
+      "color": "6"
+    },
+    {
+      "id": "44bda1fe5598710a",
+      "fromNode": "76be78605e77f77f",
+      "fromSide": "right",
+      "toNode": "56d2981ff2e9b01e",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "$r(A)=n$ ⇔ $Ax=0$ 仅零解",
+      "color": "4"
+    },
+    {
+      "id": "5a229240e67b9524",
+      "fromNode": "efa81717b0ba918f",
+      "fromSide": "bottom",
+      "toNode": "9267b34f136ae448",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "互相表示 ⇔ 向量组等价",
+      "color": "3"
+    },
+    {
+      "id": "3c66b605831f8ce8",
+      "fromNode": "76be78605e77f77f",
+      "fromSide": "bottom",
+      "toNode": "41c66dcd25397164",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "方阵：满秩 ⇔ 可逆",
+      "color": "2"
+    },
+    {
+      "id": "b0897f3c5b38fbce",
+      "fromNode": "41c66dcd25397164",
+      "fromSide": "right",
+      "toNode": "e8479949cb1f8fdf",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "$|A|=0$ ⇔ $0$ 是特征值",
+      "color": "1"
+    },
+    {
+      "id": "4498a33f7752dbd4",
+      "fromNode": "d77851a6184f3ec3",
+      "fromSide": "bottom",
+      "toNode": "b282d6ca85f91e3f",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "0550d48db6c9b3bb",
+      "fromNode": "6ef44bd0697acba7",
+      "fromSide": "bottom",
+      "toNode": "5a7711e85f731797",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "02cc5db5894ec290",
+      "fromNode": "d77851a6184f3ec3",
+      "fromSide": "left",
+      "toNode": "a63a051de5e8fc23",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "5f43da057835a6bd",
+      "fromNode": "d77851a6184f3ec3",
+      "fromSide": "left",
+      "toNode": "3f3fc80af1c0cb21",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "7f1f516b03bac397",
+      "fromNode": "d77851a6184f3ec3",
+      "fromSide": "left",
+      "toNode": "f76c89722dab7840",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "综合判别"
+    },
+    {
+      "id": "1fc8732c8afc9081",
+      "fromNode": "18fe51890c70148a",
+      "fromSide": "right",
+      "toNode": "6ef44bd0697acba7",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "充分条件"
+    },
+    {
+      "id": "f5362dc404134a6c",
+      "fromNode": "c86f6334361f98d8",
+      "fromSide": "right",
+      "toNode": "6ef44bd0697acba7",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "充分条件"
+    },
+    {
+      "id": "fff91583c284f4f7",
+      "fromNode": "6ef44bd0697acba7",
+      "fromSide": "right",
+      "toNode": "7c034b0b932e31b1",
+      "toSide": "right",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "5ff53b0645eb16a9",
+      "fromNode": "6ef44bd0697acba7",
+      "fromSide": "right",
+      "toNode": "771df7441c5343b4",
+      "toSide": "right",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "0a5192d373fba562",
+      "fromNode": "3f3fc80af1c0cb21",
+      "fromSide": "right",
+      "toNode": "771df7441c5343b4",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "逆否命题"
+    },
+    {
+      "id": "aaff9aa5ce9bd30a",
+      "fromNode": "89e69192a45a5da6",
+      "fromSide": "bottom",
+      "toNode": "97240d3f59f6bc8f",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "达到列数"
+    },
+    {
+      "id": "d821694e9893df9d",
+      "fromNode": "89e69192a45a5da6",
+      "fromSide": "right",
+      "toNode": "ddcb45048ba48665",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "小于列数"
+    },
+    {
+      "id": "5b8dbd8eebbe20cd",
+      "fromNode": "eac1b8e1160abef1",
+      "fromSide": "left",
+      "toNode": "89e69192a45a5da6",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "计数"
+    },
+    {
+      "id": "22c936cc6e95d8be",
+      "fromNode": "821b8a92e510f2d7",
+      "fromSide": "right",
+      "toNode": "d6de0304c7a0880f",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "推出"
+    },
+    {
+      "id": "1f25ce9258779c55",
+      "fromNode": "d6de0304c7a0880f",
+      "fromSide": "left",
+      "toNode": "b6ba3e945d98c1da",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "用于 $AB$ 的列/行空间"
+    },
+    {
+      "id": "da3d66879d70e6f0",
+      "fromNode": "4e4ad2cee02668dd",
+      "fromSide": "bottom",
+      "toNode": "3bbd96e3e7e13fda",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "全部解组成解空间"
+    },
+    {
+      "id": "ccab8e23d38b146b",
+      "fromNode": "601bbdf785b9395c",
+      "fromSide": "bottom",
+      "toNode": "638752ca1879cc13",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "6537f97a2d9c3ab7",
+      "fromNode": "a32bd20710402451",
+      "fromSide": "bottom",
+      "toNode": "722eb99ebceaf370",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "0f1375f3322469c2",
+      "fromNode": "638752ca1879cc13",
+      "fromSide": "bottom",
+      "toNode": "48b120b8eee1541b",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "e04fa74c5fc4970e",
+      "fromNode": "48b120b8eee1541b",
+      "fromSide": "bottom",
+      "toNode": "763dd2975bafd93f",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "$r(A)=n$"
+    },
+    {
+      "id": "cd09be48b4285382",
+      "fromNode": "48b120b8eee1541b",
+      "fromSide": "right",
+      "toNode": "1ee74fa800aaf0bd",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "$r(A)<n$"
+    },
+    {
+      "id": "7d41d1fab38394d1",
+      "fromNode": "e6610baa42f074ab",
+      "fromSide": "right",
+      "toNode": "9f59e52506b1468e",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "同解判据",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "8d5528cda20eac62",
+      "fromNode": "be3395b404de826a",
+      "fromSide": "left",
+      "toNode": "14c06b3c389c55fa",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "af7cef58766974c1",
+      "fromNode": "14c06b3c389c55fa",
+      "fromSide": "bottom",
+      "toNode": "0413a3720b7f2dae",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "a7a1b404a0615962",
+      "fromNode": "50fd62276978fabc",
+      "fromSide": "left",
+      "toNode": "c922a7e8499208aa",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "af112483b4605460",
+      "fromNode": "50fd62276978fabc",
+      "fromSide": "bottom",
+      "toNode": "87bdd9f43e268a81",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "不保证"
+    },
+    {
+      "id": "aaa629e12351de00",
+      "fromNode": "5581cf486ccd6e02",
+      "fromSide": "right",
+      "toNode": "4b3345ed2359ea9b",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "d8f0c42275b3bc7b",
+      "fromNode": "5581cf486ccd6e02",
+      "fromSide": "bottom",
+      "toNode": "bcf57d738a4c421f",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "d04b1996bebc4b80",
+      "fromNode": "bcf57d738a4c421f",
+      "fromSide": "right",
+      "toNode": "bbc66910a3fee6c4",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "因此"
+    },
+    {
+      "id": "3638f328118bb21f",
+      "fromNode": "5c4ed28dc875c0e0",
+      "fromSide": "bottom",
+      "toNode": "a4c00ae50ffbdc3a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "2decbc15c6bf5207",
+      "fromNode": "6a2d75a351840019",
+      "fromSide": "bottom",
+      "toNode": "be3c07fa0218f199",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "812ddff9888efeb5",
+      "fromNode": "a4c00ae50ffbdc3a",
+      "fromSide": "bottom",
+      "toNode": "4dc59358fa7aba8b",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "edd66d48e7381b9f",
+      "fromNode": "be3c07fa0218f199",
+      "fromSide": "bottom",
+      "toNode": "5348faf275101a5e",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "等价",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "0e61b1f0a0064e9f",
+      "fromNode": "b8b1702e2861a6aa",
+      "fromSide": "right",
+      "toNode": "0db207386ade265b",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "d98fe421e5c87014",
+      "fromNode": "b8b1702e2861a6aa",
+      "fromSide": "bottom",
+      "toNode": "c382bd1abd5ee07d",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "857a169e6335089a",
+      "fromNode": "9e1f782e4eaa9a69",
+      "fromSide": "left",
+      "toNode": "3df33de77adb6bcb",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "充要条件",
+      "fromEnd": "arrow"
+    },
+    {
+      "id": "4d01541562215868",
+      "fromNode": "3df33de77adb6bcb",
+      "fromSide": "right",
+      "toNode": "b222088ad3139e6b",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "按列配对"
+    },
+    {
+      "id": "e2cb7e9a473db0ec",
+      "fromNode": "3df33de77adb6bcb",
+      "fromSide": "bottom",
+      "toNode": "36dc14b0fbcb938d",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "按重数计"
+    },
+    {
+      "id": "029ccb4e96014965",
+      "fromNode": "bceb8af243c273af",
+      "fromSide": "left",
+      "toNode": "3df33de77adb6bcb",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "实对称的特例"
+    },
+    {
+      "id": "fcdda11878fe2b3d",
+      "fromNode": "bceb8af243c273af",
+      "fromSide": "left",
+      "toNode": "4276217fed75a7f8",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "正交变换"
+    },
+    {
+      "id": "d4bc6e3560c67242",
+      "fromNode": "4276217fed75a7f8",
+      "fromSide": "right",
+      "toNode": "f3693e98fa905203",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "正号个数"
+    },
+    {
+      "id": "6d95b9d2cc77d84e",
+      "fromNode": "4276217fed75a7f8",
+      "fromSide": "bottom",
+      "toNode": "7b995b58e508f7c7",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "负号个数"
+    }
+  ]
+}
